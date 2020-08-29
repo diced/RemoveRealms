@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "removerealms",
+  "version": "${version}",
+  "name": "RemoveRealms",
+  "description": "Remove the Minecraft Realms button, so you can forget about it.",
+  "authors": [
+    "dicedtomato"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/removerealms/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "wtf.diced.removerealms.client.RemoverealmsClient"
+    ],
+    "modmenu": [
+      "wtf.diced.removerealms.ModMenuIntegration"
+    ]
+  },
+  "mixins": [
+    "removerealms.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.9.2+build.206",
+    "fabric": "*",
+    "minecraft": "1.16.2"
+  }
+}

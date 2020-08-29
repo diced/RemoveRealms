@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "wtf.diced.removerealms.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "TitleScreenMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
